@@ -1,0 +1,130 @@
+import PropTypes from 'prop-types';
+import styled from "@emotion/styled";
+import { reset } from 'ansi-colors';
+
+const ScoreBoard = styled.div`
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: repeat(4, auto);
+  font-family: sans-serif;
+
+  .title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+  }
+
+  .name{
+    font-size: 30px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+	.team1, .team2 {
+		grid-column-start: 0;
+		width: 100%;
+		text-align: center;
+    grid-row-start: 2;
+
+    .score{
+      font-family: sans-serif;
+      font-size: 100px;
+      min-height: 150px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+		.scoreButtons {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(5, 19.5%);
+      grid-template-rows: repeat(3, 80px);
+      grid-gap: 3px;
+      margin: 0 auto;
+
+      .scoreButton{
+        padding: 0;
+        grid-column-start: 2;
+        grid-column-end: 5;
+      }
+		}
+	}
+`;
+
+const ResetButton = styled.button`
+  height: 40px;
+  width: 120px;
+  margin-top: 60px;
+  margin-left: 30px;
+`;
+
+let TEAMONESCORE = 0;
+let TEAMTWOSCORE = 0;
+
+function teamOne3() {
+    TEAMONESCORE = TEAMONESCORE + 3;
+    document.getElementById('TeamOneScore').innerHTML = TEAMONESCORE;
+}
+function teamOne2() {
+    TEAMONESCORE = TEAMONESCORE + 2;
+    document.getElementById('TeamOneScore').innerHTML = TEAMONESCORE;
+}
+function teamOne1() {
+    TEAMONESCORE = TEAMONESCORE + 1;
+    document.getElementById('TeamOneScore').innerHTML = TEAMONESCORE;
+}
+
+function teamTwo3() {
+    TEAMTWOSCORE = TEAMTWOSCORE + 3;
+    document.getElementById('TeamTwoScore').innerHTML = TEAMTWOSCORE;
+}
+function teamTwo2() {
+    TEAMTWOSCORE = TEAMTWOSCORE + 2;
+    document.getElementById('TeamTwoScore').innerHTML = TEAMTWOSCORE;
+}
+function teamTwo1() {
+    TEAMTWOSCORE = TEAMTWOSCORE + 1;
+    document.getElementById('TeamTwoScore').innerHTML = TEAMTWOSCORE;
+}
+
+function scoreReset() {
+  TEAMONESCORE = 0;
+  document.getElementById('TeamOneScore').innerHTML = TEAMONESCORE;
+  TEAMTWOSCORE = 0;
+  document.getElementById('TeamTwoScore').innerHTML = TEAMTWOSCORE;
+}
+
+function Home() {
+	return (
+		<>
+			<ScoreBoard>
+			<h1 className="title">Basketball Time!</h1>
+				<div className="team1">
+					<h3 className="name">Tom</h3>
+					<h2 className="score" id="TeamOneScore"> {TEAMONESCORE} </h2>
+
+					<div className="scoreButtons">
+						<button className="scoreButton" onClick={ teamOne3 }>3</button>
+						<button className="scoreButton" onClick={ teamOne2 }>2</button>
+						<button className="scoreButton" onClick={ teamOne1 }>1</button>
+					</div>
+				</div>
+
+				<div className="team2">
+					<h3 className="name">Liam</h3>
+          <h2 className="score" id="TeamTwoScore"> {TEAMTWOSCORE} </h2>
+
+					<div className="scoreButtons">
+            <button className="scoreButton" onClick={ teamTwo3 }>3</button>
+            <button className="scoreButton" onClick={ teamTwo2 }>2</button>
+            <button className="scoreButton" onClick={ teamTwo1 }>1</button>
+					</div>
+				</div>
+			</ScoreBoard>
+
+      <ResetButton onClick= { scoreReset }>Reset</ResetButton>
+		</>
+	);
+}
+
+export default Home;
