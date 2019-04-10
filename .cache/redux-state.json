@@ -632,20 +632,20 @@
         "owner": "internal-data-bridge"
       }
     },
-    "112c12f8-b222-509b-abe0-dfe93a905df9": {
+    "10a1dd6d-fdaa-5874-99ba-b01634ac77c6": {
       "resolve": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/node_modules/gatsby-plugin-manifest",
-      "id": "112c12f8-b222-509b-abe0-dfe93a905df9",
+      "id": "10a1dd6d-fdaa-5874-99ba-b01634ac77c6",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.28",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
+        "name": "NoStarz",
         "short_name": "starter",
         "start_url": "/",
-        "background_color": "#663399",
-        "theme_color": "#663399",
+        "background_color": "#2c3965",
+        "theme_color": "#2c3965",
         "display": "minimal-ui",
-        "icon": "src/images/gatsby-icon.png"
+        "icon": "src/assets/icon.png"
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -712,7 +712,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "22ae81588cbd1d33baf03689861e0090",
+        "contentDigest": "050d529e70df5c14ff77a98ec4b3af30",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -721,7 +721,7 @@
       "resolve": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "a81ab961beff91b82fe587305aee9fa0",
+      "version": "7c7030aff5e6865007ef2a6bd172eabf",
       "pluginOptions": {
         "plugins": []
       },
@@ -809,7 +809,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "76084c85cec99b2d84522b6df73a3f1d",
+        "contentDigest": "8e8029669cb0e2a722065d833a528cf8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -919,18 +919,20 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Basketball Time",
-        "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        "author": "@gatsbyjs"
+        "title": "No Starz",
+        "description": "NoStarz",
+        "author": "@tomWritesCode"
       },
       "port": 8000,
       "host": "localhost",
-      "buildTime": "2019-04-10T02:13:19.392Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-10T04:58:20.870Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9558e18104aefc74d7f8d8544a1d20ad",
+        "contentDigest": "5c07f08fc3c0f37e19912d4be854e4da",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -940,7 +942,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "fc41355fcac5c9f29dd8a0c58fd20c73",
+        "contentDigest": "6dc6172bca8d3f196cd42c4e5b8998be",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -952,7 +954,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-04-10T01:45:53.975Z",
-      "accessTime": "2019-04-10T02:13:27.319Z",
+      "accessTime": "2019-04-10T04:58:26.797Z",
       "changeTime": "2019-04-10T02:01:09.713Z",
       "birthTime": "2019-04-10T01:45:53.973Z",
       "root": "/",
@@ -970,71 +972,14 @@
       "blksize": 4096,
       "ino": 8622324869,
       "blocks": 0,
-      "atimeMs": 1554862407318.805,
+      "atimeMs": 1554872306796.587,
       "mtimeMs": 1554860753974.6436,
       "ctimeMs": 1554861669713.3801,
       "birthtimeMs": 1554860753973.3906,
-      "atime": "2019-04-10T02:13:27.319Z",
+      "atime": "2019-04-10T04:58:26.797Z",
       "mtime": "2019-04-10T01:45:53.975Z",
       "ctime": "2019-04-10T02:01:09.713Z",
       "birthtime": "2019-04-10T01:45:53.973Z"
-    },
-    "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a": {
-      "id": "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a",
-      "children": [
-        "fad40b29-479c-5d2a-bcfe-b70e5d094420"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-04-10T01:45:53.974Z",
-      "accessTime": "2019-04-10T02:03:21.584Z",
-      "changeTime": "2019-04-10T02:01:09.712Z",
-      "birthTime": "2019-04-10T01:45:53.973Z",
-      "root": "/",
-      "dir": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8622324870,
-      "blocks": 328,
-      "atimeMs": 1554861801584.4915,
-      "mtimeMs": 1554860753974.393,
-      "ctimeMs": 1554861669712.3596,
-      "birthtimeMs": 1554860753973.4624,
-      "atime": "2019-04-10T02:03:21.584Z",
-      "mtime": "2019-04-10T01:45:53.974Z",
-      "ctime": "2019-04-10T02:01:09.712Z",
-      "birthtime": "2019-04-10T01:45:53.973Z"
-    },
-    "fad40b29-479c-5d2a-bcfe-b70e5d094420": {
-      "id": "fad40b29-479c-5d2a-bcfe-b70e5d094420",
-      "children": [],
-      "parent": "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "81ae841c-b03c-571a-9469-4a224d2c56c4": {
       "id": "81ae841c-b03c-571a-9469-4a224d2c56c4",
@@ -1093,6 +1038,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a": {
+      "id": "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a",
+      "children": [
+        "fad40b29-479c-5d2a-bcfe-b70e5d094420"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-04-10T01:45:53.974Z",
+      "accessTime": "2019-04-10T04:56:51.732Z",
+      "changeTime": "2019-04-10T02:01:09.712Z",
+      "birthTime": "2019-04-10T01:45:53.973Z",
+      "root": "/",
+      "dir": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8622324870,
+      "blocks": 328,
+      "atimeMs": 1554872211731.7407,
+      "mtimeMs": 1554860753974.393,
+      "ctimeMs": 1554861669712.3596,
+      "birthtimeMs": 1554860753973.4624,
+      "atime": "2019-04-10T04:56:51.732Z",
+      "mtime": "2019-04-10T01:45:53.974Z",
+      "ctime": "2019-04-10T02:01:09.712Z",
+      "birthtime": "2019-04-10T01:45:53.973Z"
+    },
+    "fad40b29-479c-5d2a-bcfe-b70e5d094420": {
+      "id": "fad40b29-479c-5d2a-bcfe-b70e5d094420",
+      "children": [],
+      "parent": "a2f07ff1-3b6c-5560-8cbe-9b63ff91b62a",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -1135,6 +1137,27 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /scoreboard/": {
+      "jsonName": "scoreboard-473",
+      "internalComponentName": "ComponentScoreboard",
+      "path": "/scoreboard/",
+      "component": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/pages/scoreboard.js",
+      "componentChunkName": "component---src-pages-scoreboard-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "8e3d3b96-fcf9-5813-b462-8b047c0b8fcb",
+      "pluginCreatorId": "8e3d3b96-fcf9-5813-b462-8b047c0b8fcb",
+      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/pages/scoreboard.js",
+      "id": "SitePage /scoreboard/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e65346c2fd493fd2f3202c359885b7ff",
+        "description": "8e3d3b96-fcf9-5813-b462-8b047c0b8fcb",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1159,7 +1182,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8d0bcdb5c33439bc676d44f530cdbf21"
+    "PLUGINS_HASH": "470d3271f35e49edde89ffa2bf91b320"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1183,7 +1206,8 @@
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "sq--src-components-image-js": 2011440971
+    "sq--src-components-image-js": 2011440971,
+    "scoreboard-473": "571/path---scoreboard-473-7d9-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/.cache/dev-404-page.js": {
@@ -1210,16 +1234,24 @@
         "/"
       ],
       "isInBootstrap": false
+    },
+    "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/pages/scoreboard.js": {
+      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/pages/scoreboard.js",
+      "query": "",
+      "pages": [
+        "/scoreboard/"
+      ],
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     },
     "sq--src-components-seo-js": {
       "name": "usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsSeoJs2417117884",
@@ -1229,13 +1261,13 @@
       "query": "query usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 2417117884
     },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
+    "sq--src-components-image-js": {
+      "name": "usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsImageJs2011440971",
+      "componentPath": "/Users/thomaswhitaker/Desktop/Code/Basketball/scoreboard/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersThomaswhitakerDesktopCodeBasketballScoreboardSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
     }
   }
 }
