@@ -53,6 +53,7 @@ const ScoreBoard = styled.div`
 `;
 
 const ResetButton = styled.button`
+  font-family: sans-serif;
   height: 40px;
   width: 120px;
   display: block;
