@@ -55,8 +55,8 @@ const ScoreBoard = styled.div`
 const ResetButton = styled.button`
   height: 40px;
   width: 120px;
-  margin-top: 60px;
-  margin-left: 42.5%;
+  display: block;
+  margin: 60px auto 0 auto;
 `;
 
 let TEAMONESCORE = 0;
