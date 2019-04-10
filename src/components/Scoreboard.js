@@ -74,7 +74,7 @@ function teamOne3() {
   document.getElementById('TeamOneScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamOneScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 function teamOne2() {
   TEAMONESCORE = TEAMONESCORE + 2;
@@ -82,7 +82,7 @@ function teamOne2() {
   document.getElementById('TeamOneScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamOneScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 function teamOne1() {
   TEAMONESCORE = TEAMONESCORE + 1;
@@ -90,7 +90,7 @@ function teamOne1() {
   document.getElementById('TeamOneScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamOneScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 
 function teamTwo3() {
@@ -99,7 +99,7 @@ function teamTwo3() {
   document.getElementById('TeamTwoScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamTwoScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 function teamTwo2() {
   TEAMTWOSCORE = TEAMTWOSCORE + 2;
@@ -107,7 +107,7 @@ function teamTwo2() {
   document.getElementById('TeamTwoScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamTwoScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 function teamTwo1() {
   TEAMTWOSCORE = TEAMTWOSCORE + 1;
@@ -115,7 +115,7 @@ function teamTwo1() {
   document.getElementById('TeamTwoScore').classList.add('bucket');
   setTimeout(() => {
     document.getElementById('TeamTwoScore').classList.remove('bucket');
-  }, 3000);
+  }, 2000);
 }
 
 function scoreReset() {
