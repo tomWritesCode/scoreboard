@@ -100,7 +100,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <ScoreBoard>
       <div className="team1">
-        <h3 className="name">Tom</h3>
+        <h3 className="name">Player 1</h3>
         <h2 className="score" id="TeamOneScore"> {TEAMONESCORE} </h2>
 
         <div className="scoreButtons">
@@ -111,7 +111,7 @@ const IndexPage = () => (
       </div>
 
       <div className="team2">
-        <h3 className="name">Liam</h3>
+        <h3 className="name">Player 2</h3>
         <h2 className="score" id="TeamTwoScore"> {TEAMTWOSCORE} </h2>
 
         <div className="scoreButtons">
