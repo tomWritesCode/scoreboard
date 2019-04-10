@@ -1,6 +1,7 @@
 
 import PropTypes from "prop-types"
 import React from "react"
+import Basketball from '../assets/icon.png';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -18,7 +19,10 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0, color: 'white' }}>
-          {siteTitle}
+          <img src={Basketball} style={{ maxHeight: '60px', marginBottom: 0, marginRight: '10px'}} /> 
+          {siteTitle} 
+          <img src={Basketball} style={{ maxHeight: '60px', marginBottom: 0, marginLeft: '10px'}} /> 
+
       </h1>
     </div>
   </header>

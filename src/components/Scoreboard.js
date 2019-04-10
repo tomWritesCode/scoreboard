@@ -35,9 +35,8 @@ const ScoreBoard = styled.div`
     .score{
       font-family: sans-serif;
       font-size: 100px;
-      /* min-height: 150px; */
       margin-top: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
     }
 
 		.scoreButtons {
